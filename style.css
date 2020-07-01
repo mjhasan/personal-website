@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: 'Poppins';
+}
+h1,h2,h3,h4 {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+h3 {
+    font-size: 30px;
+    font-weight: 300;
+}
+img {
+    width: 100%;
+}
+.primary-text {
+    color: #EC4C76;
+}
+.primary-btn {
+    display: inline-block;
+    background: #EC4C76;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-top: 15px;
+}
+section {
+    padding: 5%;
+    height: 550px;
+}
+.half-width {
+    width: 35%;
+    margin-left: 10%;
+    padding-left: 2%;
+    float: left;
+}
+.onethird-width {
+    width: 26%;
+    margin-left: 2%;
+    padding-left: 2%;
+    float: left;
+}
+#header-section {
+    background-image: url("images/header-bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#about-me {
+    margin-top: 10%;
+}
+#biography-section {
+    background-image: url("images/biography-bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#biography {
+    margin-top: 10%;
+}
+#portfolio-section {
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+#portfolio-section h3 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+.portfolio {
+    margin-left: 5%;
+}
+#testimonial-section {
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -200px;
+    padding-top: 10%;
+}
+#testimonial-section h3 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+.portfolio img {
+    box-shadow: 10px 10px 20px grey;
+}
+.review {
+    overflow: hidden;
+    margin-left: 9%;
+    margin-bottom: 9%;
+}
+.review .onethird-width {
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.review #designation {
+    font-size: 80%;
+    color: #707070;
+    padding-bottom: 0px;
+}
+.contact-info {
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+   background-image: linear-gradient(45deg, #ec4ccc, #EC4C76);
+    color: #ffffff;
+    padding: 35px 40px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.contact-info p {
+    font-size: 80%;
+    color: #eeeeee;
+    margin-bottom: 2px;
+    clear: both;
+}
+footer {
+    padding: 10px;
+    text-align: center;
+}
